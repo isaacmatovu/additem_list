@@ -17,3 +17,37 @@ input[type='text']{
 h1{
 color: #fff;
 }
+
+/* list element styles */
+.list-style{
+    list-style: none;
+    background-color: #fff;  
+    width: fit-content;
+    display: flex;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    font-size: 1rem;
+    gap: 10px;
+   
+}
+
+.list-style:hover{
+    background-color: green;
+}
+
+.item-span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.delete-btn{
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+
