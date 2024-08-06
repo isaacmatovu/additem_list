@@ -1,0 +1,19 @@
+#container{
+    height:300px;
+    width: 500px;
+    background-color: #b6acac;
+    border: 1px solid black;
+    box-shadow: 2px,-15px 10px rgba(79, 255, 87, 0.2);
+}
+#item-list{
+    display: grid;
+    grid-template-columns: 200px 200px;
+    gap: 20px;
+}
+input[type='text']{
+    border: none;
+    
+}
+h1{
+color: #fff;
+}
